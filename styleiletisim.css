@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+* :focus{
+    outline: none;
+}
+#formlar{
+    margin: 20px auto;
+    width: 300px;
+
+}
+
+
+
+
+body{
+    background:linear-gradient( to right,#B19088,#CAB099,#ECCEC3,#C99297,#906668);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+form{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    margin: 0 auto;
+    
+    padding: 5px 10px;
+    width: 100% ;
+   
+    
+
+}
+textarea{
+    resize: none;
+    width:auto;
+    padding: 12px 12px;
+    margin-left: 17px;
+    margin-right: 3px;
+   
+
+}
+ button{border:2px solid transparent ;
+    background-color: #140f0d;
+    color: white;
+    font-size: 15px;
+  line-height: 20px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 5px ;
+ margin-bottom: 5px;
+} 
+input{
+    height: 15px;
+
+} 
+

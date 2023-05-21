@@ -1,4 +1,56 @@
+*{
+  display: inline-block; 
+  box-sizing: border-box;
+}
 
+nav{
+  margin: 0;
+  padding: 0px;
+   background-color: white;
+  border: 5px solid black, ;
+ 
+
+}
+
+body{
+  background:linear-gradient( to right, #B19088,#CAB099,#ECCEC3,#C99297,#906668);
+  
+}
+
+ #links{
+  font-size: 20px;
+  float: inline-end;
+  word-spacing: 20px;
+  
+  margin-top: 0;   
+  
+    
+ 
+ }
+ #head{
+  font-size: 40px;
+  text-align: left;
+  padding-left: 0;
+ }
+  
+
+
+
+
+
+#oyunlar{
+  width: 225px;
+  height: 75px;
+  font-size: 20px;
+  background-color:pink;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+      
+      
+      
+      
       section {
         text-align: center;
       }
@@ -10,15 +62,31 @@
         
       }
       
-      thead{
-        color: aqua;
-      }
+      
    #Anabaslık{
   
     text-decoration: none;
     font-size: 38px;
-    color: coral;
+    color:black;
 
 
     
    }
+   #hakkımda{
+    border: 3px solid black;
+    background-color: white;
+   }
+  .pp{
+float: left;
+padding: 0px 10px 10px 0px;
+  }
+  
+    #hobilerim{
+      border: 3px solid black;
+      background-color: white;
+    }
+    #mustang{
+      display: block;
+     padding: 0px auto 0px auto;
+      width: 60%;
+    }

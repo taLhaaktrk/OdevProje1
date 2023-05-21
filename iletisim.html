@@ -5,41 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>İletişim</title>
-    <style>
-      #iletisim2 {
-        margin-left: auto;
-        margin-right: auto;
-      }
-    </style>
+    <link rel="icon" href="LogoYuvarlak.png" />
+    <link rel="stylesheet" href="styleiletisim.css" />
   </head>
 
-  <body id="iletisim">
-    <table border="17" id="iletisim2">
-      <thead style="background-color: aqua">
-        <th colspan="2"><h1>İLETİŞİM</h1></th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <h2><label for="email"></label></h2>
-            <h2><label for="text"></label></h2>
-          </td>
-          <td>
-            <h2>
-              <form action="iletisim.php" id="email">
-                <input type="email" value="Email adresiniz." />
-              </form>
-            </h2>
-            <h2>
-              <form action="iletisim.php" id="text">
-                <textarea name="Mesajkutusu" id="text" cols="30" rows="10">
-Mesaj Giriniz.</textarea
-                >
-              </form>
-            </h2>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <body id="iletisim" style="background-color: rgb(255, 255, 255)">
+    <div id="formlar">
+      <header style="text-align: center">
+        <h1>İLETİŞİM</h1>
+      </header>
+      <main id="formana">
+        <form action="">
+          <label for="name">Adınız:</label>
+          <input type="text" name="name" /><br />
+          <label for="surname">Soyadınız:</label>
+          <input type="text" name="surname" /><br />
+          <label for="email">eMail:</label>
+          <input type="email" name="email" /><br />
+          <label for="number">Numaranız:</label>
+          <input type="number " name="number" /><br />
+
+          <label for="cins">Cinsiyetiniz:</label><br />
+          <label for="erkek">Erkek</label>
+          <input type="checkbox" name="erkek" /> <br />
+          <label for="kadın">Kadın</label>
+          <input type="checkbox" name="kadın" /><br />
+          <label for="dont">Belirtmek İstemiyorum</label>
+          <input type="checkbox" name="dont" /><br />
+
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Mesajınızı Buraya Yazabilirsiniz."
+          ></textarea
+          ><br />
+
+          <button type="reset">Temizle</button>
+          <button type="submit">Gönder</button>
+        </form>
+      </main>
+    </div>
   </body>
 </html>

@@ -6,20 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Şehrim</title>
     <link rel="icon" href="LogoYuvarlak.png" />
+    <link rel="stylesheet" href="sehrim.css">
 </head>
+<style>
+  body{
+    background: linear-gradient( to right,#B19088,#CAB099,#ECCEC3,#C99297,#906668);;
+  }
+</style>
 <body>
-    <body>
-        <div id="sehrim">
+    <nav class="slider">
+       <ul class="slides">
+          <input type="radio" name="radio-btn" id="resim1" checked >
+          <li class="continer">
+            <div class="slide">
+              <img src="Atapark.jpg" alt="">
+
+
+            </div>
+            <div class="link">
+              <label for="resim6" class="prev">&#x2039;</label>
+              <label for="resim2" class="next">&#x203a;</label>
+</div>
+          </li>
+          <input type="radio" name="radio-btn" id="resim2" checked >
+          <li class="continer">
+            <div class="slide">
+              <img src="image-Ulubey-Kanyonlari-01.jpg" alt="">
+
+
+            </div>
+            <div class="link">
+              <label for="resim1" class="prev">&#x2039;</label>
+              <label for="resim3" class="next">&#x203a;</label>
+              </div>
+              <input type="radio" name="radio-btn" id="resim3" checked >
+          <li class="continer">
+            <div class="slide">
+              <img src="taşyaran.jpeg" alt="">
+
+
+            </div>
+            <div class="link">
+              <label for="resim2" class="prev">&#x2039;</label>
+              <label for="resim4" class="next">&#x203a;</label>
+</div>
+<input type="radio" name="radio-btn" id="resim4" checked >
+          <li class="continer">
+            <div class="slide">
+              <img src="Lydian_Cilandiras_Bridge_Karahalli_Usak_Province_Turkey.jpg" alt="">
+
+
+            </div>
+            <div class="link">
+              <label for="resim3" class="prev">&#x2039;</label>
+              <label for="resim5" class="next">&#x203a;</label>
+</div>
+<input type="radio" name="radio-btn" id="resim5" checked >
+          <li class="continer">
+            <div class="slide">
+              <img src="müze.jpeg" alt="">
+
+
+            </div>
+            <div class="link">
+              <label for="resim4" class="prev">&#x2039;</label>
+              <label for="resim6" class="next">&#x203a;</label>
+</div>
+<input type="radio" name="radio-btn" id="resim6" checked >
+          <li class="continer">
+            <div class="slide">
+              <img src="Blaundos Örenyeri   (6).jpg" alt="">
+
+
+            </div>
+            <div class="link">
+              <label for="resim5" class="prev">&#x2039;</label>
+              <label for="resim1" class="next">&#x203a;</label>
+</div>
+</li>
+<li class="nav-dots">
+  <label for="resim1" class="nav-dot" id="img-dot-1"></label>
+  <label for="resim2" class="nav-dot" id="img-dot-2"></label>
+  <label for="resim3" class="nav-dot" id="img-dot-3"></label>
+  <label for="resim4" class="nav-dot" id="img-dot-4"></label>
+  <label for="resim5" class="nav-dot" id="img-dot-5"></label>
+  <label for="resim6" class="nav-dot" id="img-dot-6"></label>
+
+</li>
+
+
+       </ul>
+    </nav>
+        
+      
+      
+      
+      <div id="sehrim">
           <header
-            style="font-size: 30px; color: rgb(0, 0, 0); text-align: center;background-color: rgb(219, 71, 219);"
+            style="font-size: 40px; color: rgb(0, 0, 0); text-align: center; "
           >
             ŞEHRİM
           </header>
           <nav>
             <ul style="list-style: none">
               <li id="sehirtanıtım">
-                <h2 style="color: red; font-size: 20px">Tanıtım</h2>
-                <p>
+                <h2 style="color: black; font-size: 30px">Tanıtım</h2>
+                 <main style="font-size: 18px;"><p>
                   Uşak yöresi tarihin bilinen dönemlerinden beri bir yerleşim
                   bölgesidir. Kentin bilinen en eski adı Temenothytiadır.[kaynak
                   belirtilmeli] Kent bu adı Heraklilerden Aristomakhosun oğlu
@@ -36,11 +128,12 @@
                   kitabında Uşak isminin buradaki "Obsekion" kentinin isminden
                   türediği yazılmaktadır.
                 </p>
+              </main>
               </li>
               <li id="sehirgezme">
-                <h2 style="color: red; font-size: 20px">Gezilecek Yerler</h2>
-                <ul style="font-size: 16px">
-                  <li>ATAPARK</li>
+                <h2 style="color: black; font-size: 30px">Gezilecek Yerler</h2>
+                <ul style="font-size: 18px">
+                  <li><b>ATAPARK</b> </li>
                   <p>
                     <img src="Atapark.jpg" alt="ataparkfoto " width="200" />Uşak
                     ilinin merkezinde bulunan Atapark’ta güzel bir gün geçirme
@@ -50,7 +143,7 @@
                     öğrencileri tarafından daha fazla ziyaret ediliyor
                   </p>
     
-                  <li>ULUBEY KANYONLARI</li>
+                  <li><b>ULUBEY KANYONLARI</b></li>
                   <p>
                     Uşak ilinin Ulubey ilçesi sınırları içerisindedir. ABD'deki
                     Arizona Eyaleti sınırları içersinde bulunan Büyük Kanyon'dan
@@ -59,7 +152,7 @@
                     kanyon ile buna bağlanan onlarca büyük yan kanyonlardan oluşur.
                     Ulubey çayı, bütün kanyonu adeta saklı bir cennete çevirmiştir.
                   </p>
-                  <li>TAŞYARAN VASİSİ</li>
+                  <li><b>TAŞYARAN VASİSİ</b></li>
                   <p>
                     Uşak-İzmir Karayolu üzerinde şehir merkezine yaklaşık 45 km
                     uzaklıkta olan Taşyaran Vadisi; su, rüzgâr ve tektonik
@@ -67,7 +160,7 @@
                     başlayarak farklı renklere bürünen kayalar, bir ressamın renk
                     paleti gibi görünmektedir.
                   </p>
-                  <li>CLANDRAS KÖPRÜSÜ</li>
+                  <li><b>CLANDRAS KÖPRÜSÜ</b></li>
                   <p>
                     Clandras Köprüsü Uşak ilinin Karahallı ilçesinde yer alan
                     Frigyalılar döneminden kalma tarihi köprü. Köprü Banaz Çayı
@@ -77,7 +170,7 @@
                     işlenmiş ve kemerlerin iri taşları zıvanalı olarak birbirine
                     iyice kenetlendirilmiştir. Kemeri kasnak biçimindedir.
                   </p>
-                  <li>UŞAK ARKEOLOJİ MÜZESİ</li>
+                  <li><b>UŞAK ARKEOLOJİ MÜZESİ</b></li>
                   <p>
                     Uşak Müzesi, Uşak ilinde bir müze. 1967 yılında başlatılan müze
                     inşaatı 1969 yılında bitirilmiştir. 1970 yılında teşhir tanzimi
@@ -89,7 +182,7 @@
                     taşınmıştır. Envanterinde yer alan 43.000 bin eser ve sikkeden
                     2.500'ü müze içerisinde sergilenmektedir.
                   </p>
-                  <li>BLAUNDUS ANTİK KENTİ</li>
+                  <li><b>BLAUNDUS ANTİK KENTİ</b></li>
                   <p>
                     Büyük İskender’in Anadolu Seferleri’nden sonra Makedonya’dan
                     gelenler tarafından kurulmuş, şehir halkının kendilerine
@@ -99,38 +192,6 @@
                     artmıştır. Derin vadilerle çevrili bir yarımada üzerinde yer
                     alan kentin önemli yapıları arasında kale, tapınaklar, tiyatro,
                     stadyum ve kaya mezarları bulunmaktadır.
-                  </p>
-                </ul>
-              </li>
-              <li id="yemek">
-                <h2 style="color: red; font-size: 20px">Özel Yemekler</h2>
-                <ul style="font-size: 16px">
-                  <li>TARHANA ÇORBASI</li>
-                  <p>
-                    Uşak usulü tarhana çorbasının yapımında, 20 gün kadar
-                    bekletilmiş tarhana kırmızı ve yeşil biber, un, yoğurt, süt ve
-                    isteğe göre kullanılan fasulye ya da nohutun harika
-                    birleşiminden oluşuyor. Biraz uğraştırsa da tüm uğraşlarınıza
-                    değecek bir başlangıç yemeği.
-                  </p>
-                  <li>KEŞKEK</li>
-                  <p>
-                    İç Anadolu’nun meşhur yemeklerinden biri olan keşkek, Uşak’ta
-                    özel günler ve düğünlerin vazgeçilmez yemeği. Dövülmüş buğdayın
-                    et veya tavuk ile birleşiminden oluşan yemeği tatmanızı tavsiye
-                    ederiz.
-                  </p>
-                  <li>DÖNDÜRME BÖREĞİ</li>
-                  <p>
-                    El açması böreği dilerseniz ıspanaklı dilerseniz de peynirli
-                    yapabilirsiniz. Uşak’ta kahvaltılarda ve çay saatlerinde bolca
-                    tüketilen böreğin tadına doyum olmuyor.
-                  </p>
-                  <li>ALACATENE</li>
-                  <p>
-                    Yeşil mercimeğin kavrulmuş soğanla harmanlandıktan sonra bulgur
-                    ve su ile pişirilmeye bırakılan Alacatene yemeği Uşak’ta akşam
-                    yemeklerinin vazgeçilmez lezzetlerinden biri.
                   </p>
                 </ul>
               </li>
